@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6868ec83a19843b7856a2a74d1d151a5" Name="Diagram1" ZoomLevel="97">
+        <EntityTypeShape EntityType="KutuphaneProjesiModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="KutuphaneProjesiModel.tbl_Emanet" Width="1.5" PointX="6.375" PointY="1.75" />
+        <EntityTypeShape EntityType="KutuphaneProjesiModel.tbl_Uyeler" Width="1.5" PointX="6.375" PointY="5.125" />
+        <AssociationConnector Association="KutuphaneProjesiModel.FK_tbl_Emanet_tbl_Uyeler" />
+        <EntityTypeShape EntityType="KutuphaneProjesiModel.tbl_Kullanici" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="KutuphaneProjesiModel.tbl_Kitap" Width="1.5" PointX="4.125" PointY="4.625" />
+        <AssociationConnector Association="KutuphaneProjesiModel.FK_tbl_Emanet_tbl_Kitap" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
